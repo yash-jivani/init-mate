@@ -1,0 +1,46 @@
+{
+  "name": "init-mate",
+  "version": "1.0.0",
+  "description": "A CLI tool that simplifies project initialization for React or Next.js applications by setting up common folder structures, installing packages, and configuring state management.",
+  "main": "./bin/cli.mjs", 
+  "bin": {
+    "init-mate": "./bin/cli.mjs" 
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/cli.mjs"
+  },
+  "keywords": [
+    "react",
+    "next.js",
+    "cli",
+    "project setup",
+    "redux",
+    "context api",
+    "init",
+    "npm",
+    "package"
+  ],
+  "author": "Yash Jivani yashjivani17@gmail.com", 
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^10.2.2",
+    "ora": "^8.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yash-jivani/init-mate.git"
+  },
+  "homepage": "https://github.com/yash-jivani/init-mate#readme",
+  "bugs": {
+    "url": "https://github.com/yash-jivani/init-mate/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
