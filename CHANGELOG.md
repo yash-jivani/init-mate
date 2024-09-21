@@ -13,4 +13,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Generates folder structure for React and Next.js projects.
 - Flexible installation of dependencies (predefined, custom, or skip).
 - Automatic detection of TypeScript or JavaScript.
-- Option to install commonly used dependencies like ESLint, Prettier, etc.
+- Option to install commonly used dependencies like React-hook-form, Prettier, etc.
