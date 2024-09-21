@@ -5,6 +5,7 @@ import {
   getSliceContent,
   getStoreContent,
 } from "../../lib/content-generators.mjs";
+import { createFile } from "../../lib/file-helper.mjs";
 
 export const getReduxToolKitFolders = () => {
   return ["src/redux/store", "src/redux/slices"];

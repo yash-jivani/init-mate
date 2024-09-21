@@ -1,7 +1,9 @@
 import path from "path";
 import fs from "fs-extra";
+import chalk from "chalk";
 
 import { generateEnvFileContent } from "../../lib/content-generators.mjs";
+import { createFile } from "../../lib/file-helper.mjs";
 
 export const addEnvFile = (basePath) => {
   const envFilePath = path.join(basePath, ".env");
@@ -9,11 +11,12 @@ export const addEnvFile = (basePath) => {
   try {
     if (!fs.existsSync(envFilePath)) {
       createFile(envFilePath, generateEnvFileContent());
-      console.log(".env file created successfully.");
     } else {
-      console.log(".env file already exists, skipping creation.");
+      console.log(
+        chalk.yellow("\n.env file already exists, skipping creation.")
+      );
     }
   } catch (error) {
-    console.error(`Error creating .env file: ${error.message}`);
+    console.error(chalk.red(`\nError creating .env file: ${error.message}`));
   }
 };

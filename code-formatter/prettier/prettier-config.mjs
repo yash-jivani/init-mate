@@ -1,8 +1,8 @@
 import path from "path";
 import fs from "fs-extra";
 
-import { PRETTIER_CONFIG } from "../../constants/constants.mjs";
 import { generatePrettierIgnoreContent } from "../../lib/content-generators.mjs";
+import { PRETTIER_CONFIG } from "../../constants/constants.mjs";
 
 export const addPrettierConfigFile = (basePath) => {
   try {

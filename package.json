@@ -2,13 +2,14 @@
   "name": "init-mate",
   "version": "1.0.0",
   "description": "A CLI tool that simplifies project initialization for React or Next.js applications by setting up common folder structures, installing packages, and configuring state management.",
-  "main": "./bin/cli.mjs", 
+  "main": "./bin/cli.mjs",
   "bin": {
-    "init-mate": "./bin/cli.mjs" 
+    "init-mate": "./bin/cli.mjs"
   },
   "type": "module",
   "scripts": {
-    "start": "node ./bin/cli.mjs"
+    "start": "node ./bin/cli.mjs",
+    "postinstall": "node ./scripts/postinstall.mjs"
   },
   "keywords": [
     "react",
@@ -21,7 +22,7 @@
     "npm",
     "package"
   ],
-  "author": "Yash Jivani yashjivani17@gmail.com", 
+  "author": "Yash Jivani yashjivani17@gmail.com",
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0",
@@ -42,5 +43,17 @@
   },
   "engines": {
     "node": ">=14.0.0"
-  }
+  },
+  "files": [
+    "bin",
+    "code-formatter",
+    "constants",
+    "frameworks",
+    "lib",
+    "others",
+    "scripts",
+    "state-managers",
+    "README.md",
+    "LICENSE"
+  ]
 }
