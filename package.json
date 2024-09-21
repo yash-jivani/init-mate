@@ -1,6 +1,6 @@
 {
   "name": "init-mate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool that simplifies project initialization for React or Next.js applications by setting up common folder structures, installing packages, and configuring state management.",
   "main": "./bin/cli.mjs",
   "bin": {
