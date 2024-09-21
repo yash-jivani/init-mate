@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+logs
+*.log
+
+# Environment variables
+.env
+
+# Prettier cache
+.prettier
+
+# npm-debug log
+npm-debug.log*
+
+# Yarn logs
+yarn-debug.log*
+yarn-error.log*
+
+# MacOS files
+.DS_Store
+
+# Visual Studio Code settings
+.vscode/
