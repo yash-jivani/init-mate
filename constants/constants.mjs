@@ -1,7 +1,7 @@
 export const REACT_JS = "ReactJs".toLowerCase();
 export const NEXT_JS = "NextJs".toLowerCase();
 
-export const REDUX_TOOLKIT = "Redux Toolkit".toLowerCase();
+export const REDUX_TOOLKIT = "Redux-Toolkit".toLowerCase();
 export const CONTEXT = "Context".toLowerCase();
 
 export const AXIOS = "axios";
@@ -31,6 +31,9 @@ export const COMMON_DEPENDENCIES = [
   REACT_HOOK_FORM,
   YUP,
   PRETTIER,
+  REACT_ICONS,
+  DAYJS,
+  LODASH,
 ];
 
 export const PRETTIER_CONFIG = {
